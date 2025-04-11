@@ -6,7 +6,7 @@ tables = ["brands", "categories", "products", "stocks"] #Definerer tabellerne vi
 
 try: # Opretter forbindelse til MySQL-databasen
     conn = mysql.connector.connect(
-        host="192.168.20.171",
+        host="192.168.20.194",
         port=3306,
         user="curseist",
         password="curseword",

@@ -1,7 +1,7 @@
 import requests
 import json
 
-url = "http://192.168.20.171:8000/orders"  # Opdateret IP
+url = "http://192.168.20.194:8000/orders"  # Opdateret IP
 
 try:
     response = requests.get(url)
